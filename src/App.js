@@ -1,10 +1,14 @@
 import React from 'react';
+// import Card from './components/UI/Card';
+import AddUser from './components/Users/AddUsers';
 
 
-function App() {
+const App = () => {
   return (
     <div>
-
+    
+        <AddUser></AddUser>
+    
     </div>
   );
 }
